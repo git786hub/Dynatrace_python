@@ -1,0 +1,10 @@
+# AUTOSCRIPT NAME: EX2_SARCHANGEBY
+# CREATEDDATE: 2013-09-17 13:07:51
+# CREATEDBY: UFQJ
+# CHANGEDATE: 2013-10-03 17:02:29
+# CHANGEBY: UGL3
+# SCRIPTLANGUAGE: jython
+# STATUS: Active
+
+if app in ["SARITEM"] or app in [" "] or app==None:
+    mbo.setValue("EX2CHANGEBY",user);

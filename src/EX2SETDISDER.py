@@ -1,0 +1,12 @@
+# AUTOSCRIPT NAME: EX2SETDISDER
+# CREATEDDATE: 2014-02-11 20:08:25
+# CREATEDBY: UFQJ
+# CHANGEDATE: 2014-05-24 20:41:47
+# CHANGEBY: UFQJ
+# SCRIPTLANGUAGE: jython
+# STATUS: Active
+
+# set EX2DERNUM when coming from INT 33 DIS WO Integration
+
+ex2dernum = ex2tdernum
+ex2tdernum = None

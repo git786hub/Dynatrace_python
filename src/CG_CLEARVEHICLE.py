@@ -1,0 +1,12 @@
+# AUTOSCRIPT NAME: CG_CLEARVEHICLE
+# CREATEDDATE: 2012-07-31 13:48:01
+# CREATEDBY: UHD0
+# CHANGEDATE: 2012-07-31 13:48:01
+# CHANGEBY: TRNADMIN
+# SCRIPTLANGUAGE: jython
+# STATUS: Draft
+
+from psdi.mbo import MboConstants
+
+if mbo.getString("TRANSTYPE") <> "WORK" :
+    mbo.setValue("CG_PRIVEHICLE",False, MboConstants.NOACCESSCHECK)
